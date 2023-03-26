@@ -1,9 +1,5 @@
 import './globals.css'
 
-export const metadata = {
-  title: 'Google clone'
-}
-
 export default function RootLayout({
   children
 }: {
@@ -11,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="relative min-h-screen">{children}</body>
     </html>
   )
 }
